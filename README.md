@@ -29,7 +29,7 @@ To regularly update our current users with the latest information, get them to m
 Cocktail enthusiasts and those who want to become one. Our target group are all people between the ages of 21-60. 
 
 ### Communication:
-With a clear & bold design, this information is readily available to all who visit the site. Each page is boldly marked so that the user knows instantly where they are. The information is readily available, without having to go through an exhaustive search. And the operating hours are available throughout all the pages, to remind our audience immediately of when we are open.
+With a minimalistic design,  information is easy to find by all who visit the site. With this approach we avoid an overload of information and ensure that the most important parts are conveyes to the customers. Also the operating hours and location are available throughout all the pages, to remind our audience immediately of when we are open and where to find us.
 
 ### Current User Goals:
 - To see updates on upcoming events and changes in the menus
