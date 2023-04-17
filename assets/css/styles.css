@@ -14,3 +14,40 @@ p {
 }
 
 */
+
+/* styling for header */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#small-logo {
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    
+    display: flex;
+    align-self: flex-start;
+    padding-left: 75px;
+}
+
+li a, li {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    letter-spacing: 4px;
+    padding-right: 125px;
+    padding-top: 60px;
+    font-family: "Merriweather Sans", sans-serif;;
+}
+#menu a:hover {
+    color:chocolate;
+}
