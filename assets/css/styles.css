@@ -1,0 +1,16 @@
+/* imported fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather+Sans:wght@300&family=Rubik:wght@300&display=swap');
+
+/* Reminder how to use the fonts:
+h1 {
+    font-family: "Dancing Script", cursive;
+}
+h2 {
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+p {
+    font-family: "Rubik", sans-serif;
+}
+
+*/
