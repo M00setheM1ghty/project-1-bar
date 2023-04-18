@@ -1,19 +1,14 @@
 /* imported fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather+Sans:wght@300&family=Rubik:wght@300&display=swap');
 
-/* Reminder how to use the fonts:
-h1 {
-    font-family: "Dancing Script", cursive;
-}
-h2 {
-    font-family: "Merriweather Sans", sans-serif;
-}
-
-p {
-    font-family: "Rubik", sans-serif;
+/* global variables for fonts: */
+:root {
+    --header: Dancing Script, cursive;
+    --subheader: Merriweather Sans, sans-serif;
+    --text: Rubik, sans-serif;
 }
 
-*/
+
 
 /* background image welcome page*/
 #background-img {
@@ -29,7 +24,7 @@ header {
 }
 
 #small-logo {
-    font-family: "Dancing Script", cursive;
+    font-family: var(--header);
     font-size: 40px;
 
     display: flex;
@@ -54,7 +49,7 @@ li {
     letter-spacing: 4px;
     padding-right: 125px;
     padding-top: 30px;
-    font-family: "Merriweather Sans", sans-serif;
+    font-family: var(--subheader);
     ;
 }
 
@@ -69,14 +64,13 @@ li {
     justify-items: center;
     align-items: center;
     padding-top: 0px;
-
-    /*font-family: "Merriweather Sans", sans-serif;*/
-    font-family: "Dancing Script", cursive;
-    font-size: 50px;
-
     color: #fafafa;
     letter-spacing: 4px;
+
+    font-family: var(--header);
+    font-size: 50px;
 }
+
 /*arrow styling*/
 i {
     padding-top: 200px;
@@ -84,10 +78,35 @@ i {
 }
 
 /* 2nd section welcome page */
-
-
 #background-img-2 {
-    height: 500px;
+    height: 1000px;
     width: 100%;
-    background: url(../images/) no-repeat;
+    background: url(../images/opening-hours-drink.jpg) no-repeat;
+    margin-top: 10px;
+}
+
+#opening-hours-location {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 50px 200px;
+}
+
+/* styling of subheaders and text*/
+#opening-hours,
+#bar-adress {
+    font-family: var(--subheader);
+    font-size: 60px;
+}
+
+#opening-times,
+#address {
+    clear: both;
+    font-family: var(--text);
+    font-size: 40px;
+}
+
+#address {
+    margin-top: 0px;
+    text-decoration: none;
 }
