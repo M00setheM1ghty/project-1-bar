@@ -19,8 +19,9 @@ p {
 #background-img {
     height: 1000px;
     width: 100%;
-    background: url(../images/bar-5121407_1920.jpg) no-repeat;
+    background: url(../images/drink-3202709_1920.jpg) no-repeat;
 }
+
 /* styling for header */
 header {
     display: flex;
@@ -30,13 +31,14 @@ header {
 #small-logo {
     font-family: "Dancing Script", cursive;
     font-size: 40px;
-    
+
     display: flex;
     align-self: flex-start;
     padding-left: 75px;
 }
 
-li a, li {
+li a,
+li {
     list-style-type: none;
     text-decoration: none;
     padding: 10px;
@@ -48,29 +50,44 @@ li a, li {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    
+
     letter-spacing: 4px;
     padding-right: 125px;
     padding-top: 30px;
-    font-family: "Merriweather Sans", sans-serif;;
-}
-#menu a:hover {
-    color:chocolate;
+    font-family: "Merriweather Sans", sans-serif;
+    ;
 }
 
-/* homescreen styling*/
+#menu a:hover {
+    color: chocolate;
+}
+
+/* first section,homescreen */
 #landing-page-logo {
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    padding-top: 150px;
-    
-    font-family: "Merriweather Sans", sans-serif;
+    padding-top: 0px;
+
+    /*font-family: "Merriweather Sans", sans-serif;*/
+    font-family: "Dancing Script", cursive;
     font-size: 50px;
-    
-    color: white;
+
+    color: #fafafa;
     letter-spacing: 4px;
+}
+/*arrow styling*/
+i {
+    padding-top: 200px;
+    color: black;
+}
+
+/* 2nd section welcome page */
 
 
+#background-img-2 {
+    height: 500px;
+    width: 100%;
+    background: url(../images/) no-repeat;
 }
