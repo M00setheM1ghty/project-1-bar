@@ -250,10 +250,10 @@ hr {
     color: black;
 }
 
-/* contact form*/
+/* contact and newsletter forms */
 #contact-form-div, #newsletter-form-div {
     background-color: black;
-    width: 40%;
+    width: 50%;
 }
 .contact-f {
     width: 100%;
@@ -264,6 +264,11 @@ hr {
     padding: 10px 0;
     font-size: 1.5em;
     text-align: center;
+    overflow: 
+}
+.contact-n {
+    background-color: black;
+    height: 375px;
 }
 .contact-f > h2 {
     font-family: var(--header);
@@ -277,11 +282,32 @@ hr {
     width: 80%;
     height: 30px;
     margin: 0 0 10px 0;
-    border: 1px solid #3A3A3A;
-    border-radius: 5px;
+    border: 1px solid var(--menu-color);
+    border-radius: 10px;
     font-family: var(--text);
     font-size: 1.25rem;
 }
 #newsletter-form-div {
-    height: 350px;
+    height: 375px;
+    background-color: black;
+}
+/* background behind contact/nmewsletter forms*/
+#contact-newsletter-forms {
+    height: 900px;
+    width: 100%;
+    background: url(../images/woman-background.jpg) no-repeat;
+    padding-left: 500px;
+}
+
+/*  style submit buttons */
+#submit-button {
+    font-size: 30px;
+    font-family: var(--subheader);
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: var(--menu-color);
+}
+#submit-button:hover {
+    color: chocolate;
 }
