@@ -267,17 +267,23 @@ hr {
 #top-part-background {
     height: 800px;
     width: 100%;
-    background: url(../images/contact-background.jpg) no-repeat;
+    background: url(../images/contacts-background-new.jpg) no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    margin-left: 150px;
 }
 
 #top-part-background h1 {
     font-size: 100px;
     font-family: var(--header);
-    color: black;
+    color: var(--menu-color);
+}
+#top-part-background h2 {
+    font-family: var(--subheader);
+    color: var(--menu-color);
+    font-size: 4rem;
 }
 
 /* contact and newsletter forms */
