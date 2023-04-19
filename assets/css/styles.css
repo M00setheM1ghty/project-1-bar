@@ -10,25 +10,38 @@
     --header-color: #fafafa;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+main {
+    background: blanchedalmond;
+}
+
 * {
     padding: 0;
     margin: 0;
     border: 0;
 }
 
-
 /* background image welcome page*/
 #background-img {
     height: 1000px;
     width: 100%;
-    background: url(../images/drink-3202709_1920.jpg) no-repeat;
+    background: url(../images/welcome-top-background2.jpg) no-repeat;
 }
 
 /* styling for header */
 header {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
 }
 
 #small-logo {
@@ -85,8 +98,8 @@ header {
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    padding-top: 30px;
-    color: #fafafa;
+    padding-top: 70px;
+    color: var(--menu-color);
     letter-spacing: 4px;
 
     font-family: var(--header);
@@ -103,8 +116,7 @@ header {
 #background-img-2 {
     height: 670px;
     width: 100%;
-    background: url(../images/alcoholic-beverages-1845295_1920.jpg) no-repeat;
-    margin-top: 10px;
+    background: url(../images/welcome-img-bottom.jpg) no-repeat;
     display: flex;
     justify-content: center;
 }
@@ -116,7 +128,7 @@ header {
     background-color: black;
     width: 40%;
     border: 2px solid var(--menu-color);
-    margin-top: 20px;
+    margin: 20px 0;
     padding-top: 20px;
 }
 
@@ -343,24 +355,27 @@ hr {
     height: 900px;
     width: 100%;
     background: url(../images/events-background.jpg) no-repeat;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 /* header styling*/
 #background-img-events h1 {
     font-family: var(--header);
     font-size: 90px;
     padding: 20px;
-    
-} 
+
+}
+
 #background-img-events h3 {
     font-family: var(--subheader);
     font-size: 40px;
     padding: 20px;
 }
+
 #background-img-events p {
     font-family: var(--text);
     font-size: 30px;
