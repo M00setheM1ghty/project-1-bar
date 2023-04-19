@@ -65,7 +65,7 @@ header {
     list-style-type: none;
     text-decoration: none;
     padding: 10px;
-    color: black;
+    color: var(--menu-color);
 }
 
 /* first section,homescreen */
@@ -92,15 +92,19 @@ header {
 #background-img-2 {
     height: 670px;
     width: 100%;
-    background: url(../images/opening-hours-drink.jpg) no-repeat;
+    background: url(../images/alcoholic-beverages-1845295_1920.jpg) no-repeat;
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 #opening-hours-location {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    padding: 50px 200px;
+    align-items: center;
+    background-color: black;
+    width: 40%;
+    border: 2px solid var(--menu-color);
 }
 
 /* styling of subheaders and text*/
@@ -109,6 +113,7 @@ header {
     font-family: var(--header);
     font-size: 60px;
     padding-bottom: 30px;
+    color: var(--menu-color);
 }
 
 #opening-times,
@@ -251,10 +256,12 @@ hr {
 }
 
 /* contact and newsletter forms */
-#contact-form-div, #newsletter-form-div {
+#contact-form-div,
+#newsletter-form-div {
     background-color: black;
     width: 50%;
 }
+
 .contact-f {
     width: 100%;
     height: 450px;
@@ -264,13 +271,14 @@ hr {
     padding: 10px 0;
     font-size: 1.5em;
     text-align: center;
-    overflow: 
 }
+
 .contact-n {
     background-color: black;
     height: 375px;
 }
-.contact-f > h2 {
+
+.contact-f>h2 {
     font-family: var(--header);
     font-size: 60px;
 }
@@ -278,6 +286,7 @@ hr {
 .text-label {
     font-family: var(--subheader);
 }
+
 .text-input-field {
     width: 80%;
     height: 30px;
@@ -287,10 +296,12 @@ hr {
     font-family: var(--text);
     font-size: 1.25rem;
 }
+
 #newsletter-form-div {
     height: 375px;
     background-color: black;
 }
+
 /* background behind contact/nmewsletter forms*/
 #contact-newsletter-forms {
     height: 900px;
@@ -308,6 +319,7 @@ hr {
     background-color: black;
     color: var(--menu-color);
 }
+
 #submit-button:hover {
     color: chocolate;
 }
