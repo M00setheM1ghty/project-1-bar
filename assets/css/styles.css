@@ -8,6 +8,11 @@
     --text: Rubik, sans-serif;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
 
 
 /* background image welcome page*/
@@ -21,24 +26,16 @@
 header {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 #small-logo {
     font-family: var(--header);
     font-size: 40px;
-
     display: flex;
     align-self: flex-start;
     padding-left: 75px;
-}
-
-li a,
-li {
-    list-style-type: none;
-    text-decoration: none;
-    padding: 10px;
-    color: black;
-
+    padding-top: 20px;
 }
 
 #menu {
@@ -49,12 +46,24 @@ li {
     letter-spacing: 4px;
     padding-right: 125px;
     padding-top: 30px;
+    padding-bottom: 30px;
     font-family: var(--subheader);
-    ;
+    
 }
 
 #menu a:hover {
     color: chocolate;
+}
+
+/* styling list items*/
+#menu li a,
+#menu li,
+#opening-times li,
+#opening-times li a {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
 }
 
 /* first section,homescreen */
@@ -72,14 +81,14 @@ li {
 }
 
 /*arrow styling*/
-i {
+.arrow {
     padding-top: 200px;
     color: black;
 }
 
 /* 2nd section welcome page */
 #background-img-2 {
-    height: 1000px;
+    height: 670px;
     width: 100%;
     background: url(../images/opening-hours-drink.jpg) no-repeat;
     margin-top: 10px;
@@ -95,18 +104,55 @@ i {
 /* styling of subheaders and text*/
 #opening-hours,
 #bar-adress {
-    font-family: var(--subheader);
+    font-family: var(--header);
     font-size: 60px;
+    padding-bottom: 30px;
 }
 
 #opening-times,
 #address {
-    clear: both;
     font-family: var(--text);
-    font-size: 40px;
+    font-size: 30px;
+    padding-bottom: 10px;
 }
 
 #address {
     margin-top: 0px;
+}
+
+/* styling for footer*/
+footer {
+    text-align: center;
+}
+
+.social-media-icons li {
+    display: inline-block;
+    align-items: center;
+    padding: 0 20px 0;
+    text-align: center;
+    font-size: 2rem;
+    font-family: var(--header);
+    
+}
+
+.social-media-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
     text-decoration: none;
+    color: black;
+}
+
+.social-links, .social-links a {
+    text-decoration: none;
+    color: black;
+}
+
+#newsletter,
+#contact {
+    padding: 0 20px;
+    border-radius: 10%;
+    font-size: 1.2rem;
 }
