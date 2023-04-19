@@ -35,7 +35,7 @@ header {
     display: flex;
     align-self: flex-start;
     padding-left: 75px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 #menu {
@@ -45,10 +45,10 @@ header {
 
     letter-spacing: 4px;
     padding-right: 125px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: var(--subheader);
-    
+
 }
 
 #menu a:hover {
@@ -72,7 +72,7 @@ header {
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    padding-top: 0px;
+    padding-top: 30px;
     color: #fafafa;
     letter-spacing: 4px;
 
@@ -132,7 +132,7 @@ footer {
     text-align: center;
     font-size: 2rem;
     font-family: var(--header);
-    
+
 }
 
 .social-media-icons {
@@ -145,7 +145,8 @@ footer {
     color: black;
 }
 
-.social-links, .social-links a {
+.social-links,
+.social-links a {
     text-decoration: none;
     color: black;
 }
@@ -156,3 +157,72 @@ footer {
     border-radius: 10%;
     font-size: 1.2rem;
 }
+
+/* MENUS.HTML STYLING STARTS HERE*/
+
+/* top part */
+#background-img-menus {
+    height: 800px;
+    width: 100%;
+    background: url(../images/top-part-background.jpg) no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#background-img-menus h1,
+#background-img-menus h2 {
+    font-family: var(--subheader);
+    font-size: 60px;
+    color: whitesmoke;
+    padding-left: 100px;
+}
+
+/* menu part */
+#menu-food {
+    padding: 20px 5px;
+    border: 2px solid #F4EADB;
+    line-height: 1.5em;
+}
+#menu-drinks {
+    border: 2px solid #F4EADB;
+    padding: 20px 5px;
+    line-height: 1.5em;
+}
+#menu-items {
+    background-color: black;
+    color: #F4EADB;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+#menu-food h3,
+#menu-drinks h3 {
+    font-family: var(--header);
+    font-size: 60px;
+    
+}
+
+#menu-food h4,
+#menu-drinks h4 {
+    font-family: var(--subheader);
+}
+#menu-drinks p {
+    font-family: var(--text);
+}
+
+hr {
+    margin: 5px;
+    color: #F4EADB;
+}
+
+#menu-drinks h5 {
+    text-decoration: underline;
+}
+
