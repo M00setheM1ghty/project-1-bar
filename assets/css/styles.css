@@ -1,11 +1,13 @@
 /* imported fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Merriweather+Sans:wght@300&family=Rubik:wght@300&display=swap');
 
-/* global variables for fonts: */
+/* global variables for fonts and colors: */
 :root {
     --header: Dancing Script, cursive;
     --subheader: Merriweather Sans, sans-serif;
     --text: Rubik, sans-serif;
+    --menu-color: #F4EADB;
+    --header-color: #fafafa;
 }
 
 * {
@@ -173,10 +175,10 @@ footer {
 
 #background-img-menus h1,
 #background-img-menus h2 {
-    font-family: var(--subheader);
-    font-size: 60px;
-    color: whitesmoke;
-    padding-left: 100px;
+    font-family: var(--header);
+    font-size: 80px;
+    color: var(--menu-color);
+    padding-left: 200px;
 }
 
 /* menu part */
@@ -185,11 +187,13 @@ footer {
     border: 2px solid #F4EADB;
     line-height: 1.5em;
 }
+
 #menu-drinks {
     border: 2px solid #F4EADB;
     padding: 20px 5px;
     line-height: 1.5em;
 }
+
 #menu-items {
     background-color: black;
     color: #F4EADB;
@@ -199,20 +203,21 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+
 }
 
 #menu-food h3,
 #menu-drinks h3 {
     font-family: var(--header);
     font-size: 60px;
-    
+
 }
 
 #menu-food h4,
 #menu-drinks h4 {
     font-family: var(--subheader);
 }
+
 #menu-drinks p {
     font-family: var(--text);
 }
@@ -226,3 +231,19 @@ hr {
     text-decoration: underline;
 }
 
+/* CONTACT:HTML STYLING STARTS HERE */
+#top-part-background {
+    height: 800px;
+    width: 100%;
+    background: url(../images/contact-background.jpg) no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#top-part-background h1 {
+    font-size: 100px;
+    font-family: var(--header);
+    color: black;
+}
