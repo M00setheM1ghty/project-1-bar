@@ -31,6 +31,7 @@ body {
     flex-grow: 1;
 }
 
+/* header and footer background */
 header,
 footer {
     background: blanchedalmond;
@@ -157,6 +158,16 @@ header {
 
 #address {
     margin-top: 0px;
+}
+#address-anchor {
+    color: #F4EADB;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    font-size: 2rem;
 }
 
 #address>a {
@@ -425,3 +436,40 @@ hr {
     text-align: center;
 }
 
+/* responsive design with media queries */
+
+@media screen and (max-width: 1200px) {
+    #menu {
+        display: flex;
+        justify-content: column;
+        align-items: space-evenly;
+        letter-spacing: 1px;
+        padding: 20px 0;
+        font-family: var(--subheader);
+    }
+    #top-part-background h1 {
+        font-size: 4rem;
+        font-family: var(--header);
+        color: var(--menu-color);
+        align-items: center;
+    }
+    #top-part-background h2 {
+        font-family: var(--subheader);
+        color: var(--menu-color);
+        font-size: 2rem;
+    }
+    #bar-adress {
+        font-size: 45px;
+    }
+   
+    #address-anchor {
+        color: #F4EADB;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+        font-size: 1.5rem;
+    }
+}
