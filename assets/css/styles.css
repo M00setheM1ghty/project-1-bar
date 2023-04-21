@@ -22,7 +22,8 @@ body {
     background: black;
 }
 
-header, footer {
+header,
+footer {
     background: blanchedalmond;
 }
 
@@ -58,13 +59,11 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-
     letter-spacing: 4px;
     padding-right: 125px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: var(--subheader);
-
 }
 
 #menu a:hover {
@@ -102,7 +101,6 @@ header {
     padding-top: 70px;
     color: var(--menu-color);
     letter-spacing: 4px;
-
     font-family: var(--header);
     font-size: 50px;
 }
@@ -115,11 +113,10 @@ header {
 
 /* 2nd section welcome page */
 #background-img-2 {
-    height: 670px;
-    width: 100%;
     background: url(../images/welcome-img-bottom.jpg) no-repeat;
     display: flex;
     justify-content: center;
+    background-size: cover;
 }
 
 #opening-hours-location {
@@ -153,6 +150,10 @@ header {
     margin-top: 0px;
 }
 
+#address>a {
+    color: var(--menu-color);
+}
+
 /* styling for footer*/
 footer {
     text-align: center;
@@ -165,7 +166,6 @@ footer {
     text-align: center;
     font-size: 2rem;
     font-family: var(--header);
-
 }
 
 .social-media-icons {
@@ -195,13 +195,9 @@ footer {
 
 /* top part */
 #background-img-menus {
-    height: 800px;
-    width: 100%;
     background: url(../images/top-part-background.jpg) no-repeat;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
 }
 
 #background-img-menus h1,
@@ -233,15 +229,13 @@ footer {
     padding: 40px 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
+    justify-content: center;
 }
 
 #menu-food h3,
 #menu-drinks h3 {
     font-family: var(--header);
     font-size: 60px;
-
 }
 
 #menu-food h4,
@@ -281,6 +275,7 @@ hr {
     font-family: var(--header);
     color: var(--menu-color);
 }
+
 #top-part-background h2 {
     font-family: var(--subheader);
     color: var(--menu-color);
@@ -295,19 +290,15 @@ hr {
 }
 
 .contact-f {
-    width: 100%;
-    height: 450px;
     border: 3px solid #F4EADB;
     box-sizing: border-box;
     color: #F4EADB;
     padding: 10px 0;
     font-size: 1.5em;
     text-align: center;
-}
-
-.contact-n {
-    background-color: black;
-    height: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-f>h2 {
@@ -328,19 +319,14 @@ hr {
     font-family: var(--text);
     font-size: 1.25rem;
 }
-
-#newsletter-form-div {
-    height: 375px;
-    background-color: black;
-}
-
 /* background behind contact/nmewsletter forms*/
 #contact-newsletter-forms {
-    height: 900px;
-    width: 100%;
     background: url(../images/woman-background.jpg) no-repeat;
-    padding-left: 500px;
-    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
 
 /*  style submit buttons */
@@ -359,14 +345,13 @@ hr {
 
 /* events page*/
 #background-img-events {
-    height: 900px;
-    width: 100%;
     background: url(../images/events-background.jpg) no-repeat;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    padding: 100px;
 }
 
 /* header styling*/
@@ -374,7 +359,6 @@ hr {
     font-family: var(--header);
     font-size: 90px;
     padding: 20px;
-
 }
 
 #background-img-events h3 {
