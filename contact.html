@@ -13,32 +13,31 @@
 </head>
 
 <body>
+    <header>
+        <!-- left side logo -->
+        <h2 id="small-logo">The Dancing Palate</h2>
+        <!-- navbar with options -->
+        <nav id="nav-bar">
+            <ul id="menu">
+              <li>
+                <a href="index.html" aria-label="brings you to the homepage">Welcome</a>
+              </li>
+              <li>
+                <a href="../#opening-hours-location" aria-label="brings you to the opening-hours and location section">Hours and Location</a>
+              </li>
+              <li>
+                <a href="menus.html" aria-label="brings you to the menu page">Menus</a>
+              </li>
+              <li>
+                <a href="contact.html"aria-label="brings you to the contact page">Contact</a>
+              </li>
+              <li>
+                <a href="events.html" aria-label="brings you to the event page">Events</a>
+              </li>
+            </ul>
+          </nav>
+    </header>
     <main>
-
-        <header>
-            <!-- left side logo -->
-            <h2 id="small-logo">The Dancing Palate</h2>
-            <!-- navbar with options -->
-            <nav id="nav-bar">
-                <ul id="menu">
-                    <li>
-                        <a href="index.html">Welcome</a>
-                    </li>
-                    <li>
-                        <a href="../#opening-hours-location">Hours and Location</a>
-                    </li>
-                    <li>
-                        <a href="menus.html">Menus</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                    <li>
-                        <a href="events.html">Events</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
         <!-- top part contact page -->
         <section name="contact-header">
             <div id="top-part-background">
@@ -52,9 +51,10 @@
             <div id="contact-form-div">
                 <form id="contact-form" class="contact-f" action="#">
                     <h2 id="contact-form-direct">Contact us!</h2>
-                    <label for="fname" class="text-label" >First Name:</label>
+                    <label for="fname" class="text-label">First Name:</label>
                     <br>
-                    <input type="text" id="fname" class="text-input-field" required placeholder="Enter your first name!">
+                    <input type="text" id="fname" class="text-input-field" required
+                        placeholder="Enter your first name!">
                     <br>
                     <label for="lname" class="text-label">Surname:</label>
                     <br>
@@ -62,12 +62,12 @@
                     <br>
                     <label for="email" class="text-label">Email:</label>
                     <br>
-                    <input type="email" id="email" class="text-input-field" placeholder="Enter your email!"required>
+                    <input type="email" id="email" class="text-input-field" placeholder="Enter your email!" required>
                     <br>
                     <label for="contact-message" class="text-label">Tell us what you need!</label>
                     <br>
-                    <textarea id="contact-message" class="text-input-field" aria-label="Your message goes here" placeholder="Enter your message here!" rows="5"
-                        required></textarea>
+                    <textarea id="contact-message" class="text-input-field" aria-label="Your message goes here"
+                        placeholder="Enter your message here!" rows="5" required></textarea>
                     <br>
                     <input type="submit" id="submit-button" value="SUBMIT" aria-label="Button that sends the form">
                 </form>
@@ -76,9 +76,10 @@
             <div id="newsletter-form-div">
                 <form id="contact-form" class="contact-f contact-n" action="#">
                     <h2>Sign up for our newsletter!</h2>
-                    <label for="fname" class="text-label" >First Name:</label>
+                    <label for="fname" class="text-label">First Name:</label>
                     <br>
-                    <input type="text" id="fname" class="text-input-field" required placeholder="Enter your first name!">
+                    <input type="text" id="fname" class="text-input-field" required
+                        placeholder="Enter your first name!">
                     <br>
                     <label for="lname" class="text-label">Surname:</label>
                     <br>
@@ -86,27 +87,26 @@
                     <br>
                     <label for="email" class="text-label">Email:</label>
                     <br>
-                    <input type="email" id="email" class="text-input-field" placeholder="Enter your email!"required>
+                    <input type="email" id="email" class="text-input-field" placeholder="Enter your email!" required>
                     <br>
                     <input type="submit" id="submit-button" value="SUBMIT" aria-label="Button that sends the form">
                 </form>
             </div>
 
         </section>
-        <footer>
-            <!-- social media icons-->
-            <ul class="social-media-icons">
-                <li><a class="social-links" href="https://www.facebook.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page">Facebook <i class="fa-brands fa-facebook"></i></a></li>
-                <li><a class="social-links" href="https://www.instagram.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page">Instagram <i class="fa-brands fa-instagram"></i></a></li>
-                <li><a class="social-links" href="https://open.spotify.com/playlist/1nSRaNrMEUSjwWwk9HddsP"
-                        target="_blank" rel="noopener" aria-label="Visit our Spotify page">Spotify <i
-                            class="fa-brands fa-spotify"></i></a></li>
-            </ul>
-        </footer>
     </main>
-
+    <footer>
+        <!-- social media icons-->
+        <ul class="social-media-icons">
+            <li><a class="social-links" href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page">Facebook <i class="fa-brands fa-facebook"></i></a></li>
+            <li><a class="social-links" href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page">Instagram <i class="fa-brands fa-instagram"></i></a></li>
+            <li><a class="social-links" href="https://open.spotify.com/playlist/1nSRaNrMEUSjwWwk9HddsP" target="_blank"
+                    rel="noopener" aria-label="Visit our Spotify page">Spotify <i class="fa-brands fa-spotify"></i></a>
+            </li>
+        </ul>
+    </footer>
 </body>
 
 </html>

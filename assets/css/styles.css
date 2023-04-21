@@ -19,9 +19,10 @@ body::-webkit-scrollbar {
 body {
     -ms-overflow-style: none;
     scrollbar-width: none;
+    background: black;
 }
 
-main {
+header, footer {
     background: blanchedalmond;
 }
 
