@@ -7,7 +7,6 @@
     --subheader: Merriweather Sans, sans-serif;
     --text: Rubik, sans-serif;
     --menu-color: #F4EADB;
-    --header-color: #fafafa;
 }
 
 html {
@@ -160,7 +159,7 @@ header {
 }
 
 #address-anchor {
-    color: #F4EADB;
+    color: var(--menu-color);
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -168,8 +167,11 @@ header {
     align-items: center;
     padding-bottom: 30px;
     font-size: 2rem;
+    font-family: var(--text);
 }
-
+#address-anchor:hover {
+    color: chocolate;
+}
 #address>a {
     color: var(--menu-color);
 }
@@ -203,6 +205,11 @@ footer {
     text-decoration: none;
     color: black;
 }
+.social-links:hover,
+.social-links a:hover {
+    text-decoration: none;
+    color: chocolate;
+}
 
 #newsletter,
 #contact {
@@ -231,19 +238,19 @@ footer {
 /* menu part */
 #menu-food {
     padding: 20px 5px;
-    border: 2px solid #F4EADB;
+    border: 2px solid var(--menu-color);
     line-height: 1.5em;
 }
 
 #menu-drinks {
-    border: 2px solid #F4EADB;
+    border: 2px solid var(--menu-color);
     padding: 20px 5px;
     line-height: 1.5em;
 }
 
 #menu-items {
     background-color: black;
-    color: #F4EADB;
+    color: var(--menu-color);
     text-align: center;
     font-size: 1.5rem;
     padding: 40px 0;
@@ -273,7 +280,7 @@ footer {
 
 hr {
     margin: 5px;
-    color: #F4EADB;
+    color: var(--menu-color);
 }
 
 #menu-drinks h5 {
@@ -315,9 +322,9 @@ hr {
 }
 
 .contact-f {
-    border: 3px solid #F4EADB;
+    border: 3px solid var(--menu-color);
     box-sizing: border-box;
-    color: #F4EADB;
+    color: var(--menu-color);
     padding: 10px 0;
     font-size: 1.5em;
     text-align: center;
@@ -472,7 +479,7 @@ hr {
     }
 
     #address-anchor {
-        color: #F4EADB;
+        color: var(--menu-color);
         text-decoration: none;
         display: flex;
         flex-direction: column;
@@ -481,7 +488,6 @@ hr {
         padding-bottom: 30px;
         font-size: 1.5rem;
     }
-
     /* contacts page*/
     #contact-newsletter-forms {
         padding: 0;
@@ -551,10 +557,6 @@ hr {
     /* landing page top part*/
     #landing-page-logo h1 {
         padding-left: 30px;
-    }
-    /* landing page bottom part */
-    #opening-hours-location {
-        
     }
     /* menus page top part*/
     #background-img-menus {
