@@ -90,28 +90,39 @@ This navigation bar is included over all 4 pages (Hours/Location is only a local
 ![Navigation bar](assets/readme-pictures/nav-bar.png)
 #### Footer
 The footer includes the social media links and can be found on all pages to round off them off.
+
 #### Landing/Welcome Page
 The top-part of the welcome page shows a picture of a cocktail to alert the user to what kind of website they are on. The arrow indicates where to go to see the content intended to be viewed next. 
-<!-- insert picture here-->
+![Welcome Page](assets/readme-pictures/welcome-top-part.png)
+
 The bottom part is right below and shows the opening times and where the bar can be found, which is often essential information customers look for. 
-<!-- insert picture here-->
+![Welcome Page 2](assets/readme-pictures/welcome-bottom-part.png)
 
 #### Hours/Location Page
 This is the bottom part of the welcome page. I figured that an opening-hours/location link should be included in the navbar since it is vital information and often looked for. 
- 
+ ![Welcome Page 2](assets/readme-pictures/welcome-bottom-part.png)
+
 #### Menus Page
 Here the food and drinks menus can be found. The background picture suggests that drinks as well as food is available and part of the menu is already visible for easy access. 
-<!-- insert picture here-->
+![Menu Page](assets/readme-pictures/menu-top.png)
+![Menu Page 2](assets/readme-pictures/menu-bottom.png)
+
 #### Contact Page
 The top part of the contacts page mimicks the style of the landing page.
 The arrows clearly indicate where to find the contact forms. 
-<!-- insert picture here-->
+![Contact Page](assets/readme-pictures/contact-top.png)
+
 On the bottom part the Contact form as well as the signup for the newsletter can be found. 
-<!-- insert picture here-->
+
+![Contact Page](assets/readme-pictures/contact-bottom1.png)
+![Contact Page](assets/readme-pictures/contact-bottom2.png)
+
+
+
 #### Events Page
 This page shows off special and ongoing events. It clearly states when and where they are happening and gives an easy view of all the information.
 The background image gives the feeling of night life and party.
-<!-- insert picture here-->
+![Events Page](assets/readme-pictures/events-all.png)
 
 ### Validator Testing
 
@@ -135,7 +146,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-- The live link can be found [HERE - La Lucha](https://cluelessbiker.github.io/project1-la-lucha/index.html)
+- The live link can be found [HERE][def]
 
 ## Credits
 The template for this readme and also the structure of the signup forms were taken(after asking) from my mentors project https://github.com/CluelessBiker/project1-la-lucha.
