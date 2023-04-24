@@ -4,10 +4,12 @@ It is a place for young and old. Only requirement: Bring good times, a thirst fo
 
 This website is supposed to help the customer find the location, request bookings via the contact page, have a peak at the menus and draw attention to our ongoing events.
 
+![Responsive Design](assets/readme-pictures/amiresponsive.png)
+
 <em>The Website is already live:</em>
 [HERE][def]
 
-## Tabel of Contents
+## Table of Contents
 + [UX](#ux "UX")
   + [Site Purpose](#site-purpose "Site Purpose")
   + [Site Goal](#site-goal "Site Goal")
@@ -199,14 +201,25 @@ body {
     flex-grow: 1;
 }
 
-
+Since I had some knowledge from certifications I did outside of CodeInstitute I did not rely much on sources from the internet. Hence the credit section is rather short. 
 
 
 ### Content
 
+The design and content of this page was inpired by https://www.dante-nyc.com/.
+
+I myself have worked almost 5 years in hospitality, so much of the content was created by me. 
+
 ### Media
 
+Here are the free stock pictures from pixabay:
 
+https://pixabay.com/photos/woman-coffee-phone-portrait-lady-4246954/<br>
+https://pixabay.com/photos/caipirinha-brazil-drink-liquor-4782694/<br>
+https://pixabay.com/photos/alcohol-bar-night-cocktail-drink-857380/<br>
+https://pixabay.com/photos/flat-lay-food-salad-diet-healthy-2583212/<br>
+https://pixabay.com/photos/whiskey-glass-whiskey-glass-644372/<br>
+https://pixabay.com/photos/hand-turntable-dj-neon-lights-1850120/<br>
 
 
 [def]: https://m00sethem1ghty.github.io/project-1-bar/
