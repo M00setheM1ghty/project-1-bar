@@ -114,17 +114,6 @@ The background image gives the feeling of night life and party.
 <!-- insert picture here-->
 
 ### Validator Testing
-- html files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
-![W3C validator message](/assets/images-readme/validator-html.png)
-
-- html files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
-![Jigsaw validator message](/assets/images-readme/validator-css.png)
-
-- page has an excellent Accessibility rating in Lighthouse
-![Accessibility score](/assets/images-readme/accessibility-score.png)
-
-- Tested the site opens in Brave, Chrome & Safari without issues.
-- All links open to external pages as intended.
 
 ### Unfixed Bugs
 
