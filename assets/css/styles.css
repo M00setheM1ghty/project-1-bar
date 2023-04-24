@@ -13,7 +13,14 @@ html {
     display: flex;
     flex-direction: column;
 }
-
+/* animations */
+.grow:hover
+{
+ -webkit-transform: scale(1.2);
+ -ms-transform: scale(1.2);
+ transform: scale(1.2);
+ transition-duration: 2s;
+}
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
     display: none;
@@ -62,6 +69,11 @@ header {
     align-self: flex-start;
     padding-left: 75px;
     padding-top: 10px;
+    text-decoration: none;
+}
+#small-logo a {
+    color: black;
+    text-decoration: none;
 }
 
 #menu {
@@ -77,6 +89,8 @@ header {
 
 #menu a:hover {
     color: chocolate;
+    border: 1px solid chocolate;
+    border-radius: 5%;
 }
 
 /* styling list items*/
@@ -279,6 +293,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 10px;
 }
 
 #menu-food h3,
