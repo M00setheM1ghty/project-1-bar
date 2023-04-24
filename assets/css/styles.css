@@ -266,6 +266,10 @@ footer {
 #menu-drinks p {
     font-family: var(--text);
 }
+#menu-food p {
+    font-family: var(--text);
+}
+
 
 hr {
     margin: 5px;
@@ -536,6 +540,80 @@ hr {
     #small-logo {
         display: flex;
         justify-content: center;
-        padding: 30px 0;
+        padding-left: 30px;
+    }
+
+    /* footer */
+    .social-links {
+        font-size: 16px;
+    }
+
+    /* landing page top part*/
+    #landing-page-logo h1 {
+        padding-left: 30px;
+    }
+    /* landing page bottom part */
+    #opening-hours-location {
+        
+    }
+    /* menus page top part*/
+    #background-img-menus {
+        display: flex;
+        align-items: start;
+    }
+
+    #background-img-menus h1 {
+        font-size: 50px;
+        padding-left: 100px;
+    }
+
+    #background-img-menus h2 {
+        font-size: 50px;
+        padding-left: 100px;
+    }
+
+    /* food and drinks menu */
+    #menu-items {
+        padding: 0;
+        font-size: 1rem;
+    }
+    /* contact page*/
+    #top-part-background h1 {
+        padding-left: 30px;
+        padding-bottom: 30px;
+        font-size: 50px;
+    }
+    #top-part-background h2 {
+        font-size: 30px;
+    }
+    #contact-form h2 {
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+    #contact-form-div {
+        width: 75%;
+    }
+    #newsletter-form-div {
+        width: 75%;
+    }
+    /* events page */
+    #karaoke-night h1 {
+        font-size: 32px;
+    }
+    #karaoke-night h3 {
+        font-size: 20px;
+    }
+    #dj-night h1 {
+        font-size: 32px;
+    }
+    #dj-night h3 {
+        font-size: 20px;
+    }
+    .events-div {
+        width: 50%;
+        padding: 50px 0px;
+    }
+    #background-img-events {
+        padding: 25px 0px;
     }
 }
