@@ -272,6 +272,7 @@ footer {
     height: 900px;
     animation: slide2 15s infinite;
 }
+
 /* background animation*/
 @keyframes slide2 {
     0% {
@@ -504,6 +505,12 @@ hr {
     align-items: center;
 }
 
+audio {
+    width: 200px;
+    height: 25px;
+    padding-top: 30px;
+}
+
 /*form-destination styling starts here*/
 
 #formdump-page {
@@ -590,6 +597,11 @@ hr {
     #background-img-events p {
         font-size: 1rem;
     }
+
+    audio {
+        width: 100px;
+        padding-top: 20px;
+    }
 }
 
 /* for 1024px and lower */
@@ -605,6 +617,13 @@ hr {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    audio {
+        display: none;
+    }
+    #song-week {
+        display: none;
     }
 }
 
