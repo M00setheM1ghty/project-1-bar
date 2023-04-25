@@ -54,6 +54,18 @@ footer {
     height: 1000px;
     width: 100%;
     background: url(../images/welcome-top-background2.jpg) no-repeat;
+    animation: slide 15s infinite;
+}
+@keyframes slide {
+    0% {
+        background-image: url(../images/welcome-top-background2.jpg);
+    }
+    33% {
+        background-image: url(../images/dj-pic-front.jpg);
+    }
+    67% {
+        background-image: url(../images/woman-background.jpg);
+    }
 }
 
 /* styling for header */

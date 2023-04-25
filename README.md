@@ -220,6 +220,7 @@ https://pixabay.com/photos/alcohol-bar-night-cocktail-drink-857380/<br>
 https://pixabay.com/photos/flat-lay-food-salad-diet-healthy-2583212/<br>
 https://pixabay.com/photos/whiskey-glass-whiskey-glass-644372/<br>
 https://pixabay.com/photos/hand-turntable-dj-neon-lights-1850120/<br>
+https://pixabay.com/photos/dj-songs-music-disco-equipment-2581269/
 
 
 [def]: https://m00sethem1ghty.github.io/project-1-bar/
