@@ -1,6 +1,6 @@
 # The Dancing Palate
-The Dancing Palate is a fictional bar in New York City, which intends to tickle your palate with new flavours and allows you to relax in a laid back setting.
-It is a place for young and old. Only requirement: Bring good times, a thirst for new experiences and your friends. 
+The Dancing Palate is a fictional bar in New York City, which intends to tickle your palate with new flavours and allows you to relax in a laid back setting.<br>
+It is a place for young and old. Only requirement: Bring good times, a thirst for new experiences and your friends. <br>
 
 This website is supposed to help the customer find the location, request bookings via the contact page, have a peak at the menus and draw attention to our ongoing events.
 
@@ -68,29 +68,32 @@ and keeps my focus on the site.
 
 ### Colour Scheme:
 
-The color palette was kept very simplistic with black and #blanchedalmond (hex-code: #FFEBCD) as background colors for content and header/footer respectively. 
-Colors come almost exclusively from the background pictures.
-For the text-color I used black for the header and footer. This was switched around in the main sections where I used #F4EADB (=var(--menu-color)) as the text color and made the background black. This ensures nice contrast and readibility and provides extra separation between header/footer elements and the main content. 
+The color palette was kept very simplistic with black and #blanchedalmond (hex-code: #FFEBCD) as background colors for content and header/footer respectively. <br>
+Colors come almost exclusively from the background pictures.<br>
+For the text-color I used black for the header and footer. This was switched around in the main sections where I used #F4EADB (=var(--menu-color)) as the text color and made the background black. This ensures nice contrast and readibility and provides extra separation between header/footer elements and the main content. <br>
 
-To make clickable links and menu-navigation obvious to the user all of these items turn #chocolate (hex-code #D2691E) when hovered upon. This slightly darker color also matches nicely with the #blanchedalmond background. This light brown can also be distinguished easily from the black background in the Hours/Location section.(->google maps link) 
+To make clickable links and menu-navigation obvious to the user all of these items turn #chocolate (hex-code #D2691E) when hovered upon. This slightly darker color also matches nicely with the #blanchedalmond background. This light brown can also be distinguished easily from the black background in the Hours/Location section.(->google maps link) <br>
 
-<!-- insert color pallete picture here -->
+![Color Palette](assets/readme-pictures/color-pallete.png)
+
 ### Typography:
 
-https://fontjoy.com/ was used to find matching fonts for the header font Dancing Script.
-There I choose the following 3 fonts for the website:
-They are declared in the :root selector in the beginning of the styles.css file:
+[Fontjoy][def4] was used to find matching fonts for the header font Dancing Script.<br>
+There I chose the following 3 fonts for the website:<br>
+They are declared in the :root selector in the beginning of the styles.css file:<br>
+```
 :root {
     --header: Dancing Script, cursive;
     --subheader: Merriweather Sans, sans-serif;
     --text: Rubik, sans-serif;
 }
+```
 
 The Dancing Script font matches with the 'dancing' Theme Name of the site and gives the site an artsy and musical touch. The subheader and text fonts are simpler to make it easy to find menu elements and ensure content is easy to read. 
 
 ### Imagery:
 
-All the images found on the website are free stock images from https://pixabay.com/. 
+All the images found on the website are free stock images from [Pixabay][def3]. <br>
 The images were all used as backgrounds to highlight the fact this is a bar-environment with a focus on high-end cocktails, spirits and food.    
 
 ## Features
@@ -107,7 +110,8 @@ The footer includes the social media links and can be found on all pages to roun
 
 #### Landing/Welcome Page
 
-The top-part of the welcome page shows a picture of a cocktail to alert the user to what kind of website they are on. The arrow indicates where to go to see the content intended to be viewed next. 
+The top-part of the welcome page shows a picture of a cocktail to alert the user to what kind of website they are on.<br>
+The arrow indicates where to go to see the content intended to be viewed next. There is an animation which changes between 3 different pictures. 
 
 ![Welcome Page](assets/readme-pictures/welcome-top-part.png)
 
@@ -123,14 +127,15 @@ This is the bottom part of the welcome page. I figured that an opening-hours/loc
 
 #### Menus Page
 
-Here the food and drinks menus can be found. The background picture suggests that drinks as well as food is available and part of the menu is already visible for easy access. 
+Here the food and drinks menus can be found. The background picture suggests that drinks as well as food is available and part of the menu is already visible for easy access.
+The top of the menu page also has an animation that switches between different background pictures. 
 
 ![Menu Page](assets/readme-pictures/menu-top.png)
 ![Menu Page 2](assets/readme-pictures/menu-bottom.png)
 
 #### Contact Page
 
-The top part of the contacts page mimicks the style of the landing page.
+The top part of the contacts page mimicks the style of the landing page.<br>
 The arrows clearly indicate where to find the contact forms.
 
 ![Contact Page](assets/readme-pictures/contact-top.png)
@@ -149,12 +154,16 @@ A form dump was created to indicate the contact and newsletter form has worked:
 #### Events Page
 
 This page shows off special and ongoing events. It clearly states when and where they are happening and gives an easy view of all the information.
-The background image gives the feeling of night life and party.
+The background image gives the feeling of night life and party. Also there is an audio file which plays the bars "song of the week".
 
-![Events Page](assets/readme-pictures/events-all.png)
+![Events Page](assets/readme-pictures/events-page.png)
 
 
 ### Validator Testing
+
+#### W3C:
+#### Jigsaw:
+#### PageSpeedInsights:
 
 ### Unfixed Bugs
 
@@ -235,3 +244,5 @@ https://img.freepik.com/premium-vector/alcohol-cocktail-icon-comic-style-drink-g
 
 [def]: https://m00sethem1ghty.github.io/project-1-bar/
 [def2]: https://favicon.io
+[def3]: https://pixabay.com/
+[def4]: https://fontjoy.com/
