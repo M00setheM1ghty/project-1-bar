@@ -228,5 +228,7 @@ Here is the audio from pixabay:
 
 Music by <a href="https://pixabay.com/users/fassounds-3433550/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=112191">FASSounds</a> 
 
+Here is the free use favicon:
+https://img.freepik.com/premium-vector/alcohol-cocktail-icon-comic-style-drink-glass-vector-cartoon-illustration-white-isolated-background-martini-liquid-business-concept-splash-effect_157943-7113.jpg?w=2000
 
 [def]: https://m00sethem1ghty.github.io/project-1-bar/
