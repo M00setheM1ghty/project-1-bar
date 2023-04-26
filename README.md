@@ -68,11 +68,11 @@ and keeps my focus on the site.
 
 ### Colour Scheme:
 
-The color palette was kept very simplistic with black and #blanchedalmond as background colors for content and header/footer respectively. 
+The color palette was kept very simplistic with black and #blanchedalmond (hex-code: #FFEBCD) as background colors for content and header/footer respectively. 
 Colors come almost exclusively from the background pictures.
 For the text-color I used black for the header and footer. This was switched around in the main sections where I used #F4EADB (=var(--menu-color)) as the text color and made the background black. This ensures nice contrast and readibility and provides extra separation between header/footer elements and the main content. 
 
-To make clickable links and menu-navigation obvious to the user all of these items turn #chocolate when hovered upon. This slightly darker color also matches nicely with the #blanchedalmond background. This light brown can also be distinguished easily from the black background in the Hours/Location section.(->google maps link) 
+To make clickable links and menu-navigation obvious to the user all of these items turn #chocolate (hex-code #D2691E) when hovered upon. This slightly darker color also matches nicely with the #blanchedalmond background. This light brown can also be distinguished easily from the black background in the Hours/Location section.(->google maps link) 
 
 <!-- insert color pallete picture here -->
 ### Typography:
@@ -228,7 +228,10 @@ Here is the audio from pixabay:
 
 Music by <a href="https://pixabay.com/users/fassounds-3433550/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=112191">FASSounds</a> 
 
-Here is the free use favicon:
+Here is the free use favicon image:
+
+[Favicon.io][def2] was used to convert it to the right size.
 https://img.freepik.com/premium-vector/alcohol-cocktail-icon-comic-style-drink-glass-vector-cartoon-illustration-white-isolated-background-martini-liquid-business-concept-splash-effect_157943-7113.jpg?w=2000
 
 [def]: https://m00sethem1ghty.github.io/project-1-bar/
+[def2]: https://favicon.io
