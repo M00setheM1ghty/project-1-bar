@@ -4,7 +4,7 @@ It is a place for young and old. Only requirement: Bring good times, a thirst fo
 
 This website is supposed to help the customer find the location, request bookings via the contact page, have a peak at the menus and draw attention to our ongoing events.
 
-![Responsive Design](assets/readme-pictures/amiresponsive.png)
+![Responsive Design](assets/readme-pictures/amiresponsive.webp)
 
 <em>The Website is already live:</em>
 [HERE][def]
@@ -74,7 +74,7 @@ For the text-color I used black for the header and footer. This was switched aro
 
 To make clickable links and menu-navigation obvious to the user all of these items turn #chocolate (hex-code #D2691E) when hovered upon. This slightly darker color also matches nicely with the #blanchedalmond background. This light brown can also be distinguished easily from the black background in the Hours/Location section.(->google maps link) <br>
 
-![Color Palette](assets/readme-pictures/color-pallete.png)
+![Color Palette](assets/readme-pictures/color-pallete.webp)
 
 ### Typography:
 
@@ -103,7 +103,7 @@ The images were all used as backgrounds to highlight the fact this is a bar-envi
 
 This navigation bar is included over all 4 pages (Hours/Location is only a local link to the opening times) and also the form-dump page. It ensures visitors can navigate seamlessly between the pages.
 
-![Navigation bar](assets/readme-pictures/nav-bar.png)
+![Navigation bar](assets/readme-pictures/nav-bar.webp)
 
 #### Footer
 The footer includes the social media links and can be found on all pages to round off them off.
@@ -113,50 +113,50 @@ The footer includes the social media links and can be found on all pages to roun
 The top-part of the welcome page shows a picture of a cocktail to alert the user to what kind of website they are on.<br>
 The arrow indicates where to go to see the content intended to be viewed next. There is an animation which changes between 3 different pictures. 
 
-![Welcome Page](assets/readme-pictures/welcome-top-part.png)
+![Welcome Page](assets/readme-pictures/welcome-top-part.webp)
 
 The bottom part is right below and shows the opening times and where the bar can be found, which is often essential information customers look for. 
 
-![Welcome Page 2](assets/readme-pictures/welcome-bottom-part.png)
+![Welcome Page 2](assets/readme-pictures/welcome-bottom-part.webp)
 
 #### Hours/Location Page
 
 This is the bottom part of the welcome page. I figured that an opening-hours/location link should be included in the navbar since it is vital information and often looked for. 
  
- ![Welcome Page 2](assets/readme-pictures/welcome-bottom-part.png)
+ ![Welcome Page 2](assets/readme-pictures/welcome-bottom-part.webp)
 
 #### Menus Page
 
 Here the food and drinks menus can be found. The background picture suggests that drinks as well as food is available and part of the menu is already visible for easy access.
 The top of the menu page also has an animation that switches between different background pictures. 
 
-![Menu Page](assets/readme-pictures/menu-top.png)
-![Menu Page 2](assets/readme-pictures/menu-bottom.png)
+![Menu Page](assets/readme-pictures/menu-top.webp)
+![Menu Page 2](assets/readme-pictures/menu-bottom.webp)
 
 #### Contact Page
 
 The top part of the contacts page mimicks the style of the landing page.<br>
 The arrows clearly indicate where to find the contact forms.
 
-![Contact Page](assets/readme-pictures/contact-top.png)
+![Contact Page](assets/readme-pictures/contact-top.webp)
 
 On the bottom part the Contact form as well as the signup for the newsletter can be found. 
 
-![Contact Page](assets/readme-pictures/contact-bottom1.png)
-![Contact Page](assets/readme-pictures/contact-bottom2.png)
+![Contact Page](assets/readme-pictures/contact-bottom1.webp)
+![Contact Page](assets/readme-pictures/contact-bottom2.webp)
 
 #### Form Dump
 
 A form dump was created to indicate the contact and newsletter form has worked: 
 
-![Form Dump](assets/readme-pictures/form-dump.png)
+![Form Dump](assets/readme-pictures/form-dump.webp)
 
 #### Events Page
 
 This page shows off special and ongoing events. It clearly states when and where they are happening and gives an easy view of all the information.
 The background image gives the feeling of night life and party. Also there is an audio file which plays the bars "song of the week".
 
-![Events Page](assets/readme-pictures/events-page.png)
+![Events Page](assets/readme-pictures/events-page.webp)
 
 
 ### Validator Testing
@@ -165,7 +165,7 @@ The background image gives the feeling of night life and party. Also there is an
 
 The page has a strong overall score on lighthouse: <br>
 
-![Lighthouse](assets/readme-pictures/lighthouse-score.png)
+![Lighthouse](assets/readme-pictures/lighthouse-score.webp)
 
 #### W3C:
 
@@ -176,13 +176,13 @@ The header in question has no text, because the content is an font-awesome icon 
 
 #### Jigsaw:
 
-![Jigsaw](assets/readme-pictures/jigsaw-validation.png)
+![Jigsaw](assets/readme-pictures/jigsaw-validation.webp)
 
 #### PageSpeedInsights:
 
 The page has an excellent score on desktop devices (tested with [PageSpeedInsights][def5]): <br>
 
-![PageSpeed](assets/readme-pictures/pagespeed-desktop.png)
+![PageSpeed](assets/readme-pictures/pagespeed-desktop.webp)
 
 ### Unfixed Bugs
 
