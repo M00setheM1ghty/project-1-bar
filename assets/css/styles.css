@@ -518,7 +518,7 @@ audio {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 275px;
+    padding: 200px;
 }
 
 #formdump-message h2 {
@@ -582,16 +582,12 @@ audio {
     }
 
     /*events page*/
-    #background-img-events {
-        padding: 0;
-    }
-
     #background-img-events h1 {
-        font-size: 4rem;
+        font-size: 3.25rem;
     }
 
     #background-img-events h3 {
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
 
     #background-img-events p {
@@ -624,6 +620,15 @@ audio {
     }
     #song-week {
         display: none;
+    }
+    /* events page */
+    #background-img-events {
+        padding: 0;
+    }
+    /* formdump style */
+    #formdump-page {
+        padding: 100px;
+        height: 400px;
     }
 }
 
@@ -730,4 +735,16 @@ audio {
     #background-img-events {
         padding: 25px 0px;
     }
+    /* formdump style */
+    #formdump-page {
+        padding: 30px;
+        height: 500px;
+    }
+    #formdump-message h2 {
+        font-size: 4rem;
+    }
+    #formdump-message p {
+        font-size: 2rem;
+    }
+    
 }
