@@ -165,7 +165,7 @@ The background image gives the feeling of night life and party. Also there is an
 
 The page has a strong overall score on lighthouse: <br>
 
-![Lighthouse](assets/readme-pictures/lighthouse-score.webp)
+![Lighthouse](assets/readme-pictures/lighthouse-score-final.webp)
 
 #### W3C:
 
