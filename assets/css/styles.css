@@ -744,11 +744,4 @@ audio {
     #formdump-message p {
         font-size: 2rem;
     }
-    /* animation */
-    #background-img-menus {
-        animation: none;
-    }
-    #background-img {
-        animation: none;
-    }
 } 
