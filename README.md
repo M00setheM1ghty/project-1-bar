@@ -161,9 +161,28 @@ The background image gives the feeling of night life and party. Also there is an
 
 ### Validator Testing
 
+#### Lighthouse
+
+The page has a strong overall score on lighthouse: <br>
+
+![Lighthouse](assets/readme-pictures/lighthouse-score.png)
+
 #### W3C:
+
+The W3C Validator shows no errors except one, which was intentionally ignored. <br>
+The header in question has no text, because the content is an font-awesome icon (arrow).
+
+![W3C Validation](assets/readme-pictures/w3c-validation.png)
+
 #### Jigsaw:
+
+![Jigsaw](assets/readme-pictures/jigsaw-validation.png)
+
 #### PageSpeedInsights:
+
+The page has an excellent score on desktop devices (tested with [PageSpeedInsights][def5]): <br>
+
+![PageSpeed](assets/readme-pictures/pagespeed-desktop.png)
 
 ### Unfixed Bugs
 
@@ -177,7 +196,7 @@ The background image gives the feeling of night life and party. Also there is an
 - Font Awesome - to add icons to the social links in the footer element.
 - GitPod - to creat my html files & styling sheet.
 - GitHub - to store my repository for submission.
-- Am I Responsive? - shows responisveness over all device sizes.
+- Am I Responsive? - shows responsiveness over all device sizes.
 
 
 ## Deployment
@@ -188,12 +207,13 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - The live link can be found [HERE][def]
 
 ## Credits
-The template for this readme and also the structure of the signup forms were taken(after asking) from my mentors project https://github.com/CluelessBiker/project1-la-lucha.
-She also turned me onto using flexbox for styling the site. This site was used for learning the flexbox basics: https://flexboxfroggy.com/
+The template for this readme and also the structure of the signup forms were taken(after asking) from my mentors project [LaLucha][def6].<br>
+She also turned me onto using flexbox for styling the site. This site was used for learning the flexbox basics: [FlexBoxFroggy][def7].<br>
 
 Thank you Lauren!
 
 The following CSS to hide the scrollbar was taken from the web. Unfortunately I cannot find the page it was taken from anymore.  
+```
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
     display: none;
@@ -209,13 +229,13 @@ body {
     justify-content: space-between;
     flex-grow: 1;
 }
-
-Since I had some knowledge from certifications I did outside of CodeInstitute I did not rely much on sources from the internet. Hence the credit section is rather short. 
-
+```
+Since I had some knowledge from certifications I did outside of CodeInstitute I did not rely much on sources from the internet. Hence the credit section is rather short. <br>
+[freeCodeCamp Certification][freecode]
 
 ### Content
 
-The design and content of this page was inpired by https://www.dante-nyc.com/.
+The design and content of this page was inpired by [Dante NYC][danteNYC].
 
 I myself have worked almost 5 years in hospitality, so much of the content was created by me. 
 
@@ -233,16 +253,22 @@ https://pixabay.com/photos/dj-songs-music-disco-equipment-2581269/<br>
 https://pixabay.com/photos/spaghetti-tomatoes-basil-1932466/<br>
 https://pixabay.com/photos/bread-sandwich-food-plate-toast-1867208/<br>
 
-Here is the audio from pixabay:
-
+Here is the audio from pixabay:<br>
+[Lofi Study Beat][study beat]
 Music by <a href="https://pixabay.com/users/fassounds-3433550/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=112191">FASSounds</a> 
 
 Here is the free use favicon image:
 
-[Favicon.io][def2] was used to convert it to the right size.
+[Favicon.io][def2] was used to convert it to the right size.<br>
 https://img.freepik.com/premium-vector/alcohol-cocktail-icon-comic-style-drink-glass-vector-cartoon-illustration-white-isolated-background-martini-liquid-business-concept-splash-effect_157943-7113.jpg?w=2000
 
 [def]: https://m00sethem1ghty.github.io/project-1-bar/
 [def2]: https://favicon.io
 [def3]: https://pixabay.com/
 [def4]: https://fontjoy.com/
+[def5]: https://pagespeed.web.dev/
+[def6]: https://github.com/CluelessBiker/project1-la-lucha
+[def7]: https://flexboxfroggy.com/
+[freecode]: https://www.freecodecamp.org/certification/MightyM00se/responsive-web-design
+[danteNYC]: https://www.dante-nyc.com/
+[study beat]: https://pixabay.com/music/beats-lofi-study-112191/
