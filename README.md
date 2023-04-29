@@ -174,6 +174,11 @@ When a 404 error is thrown the customer sees a custom error message with a butto
 
 ![Error Page](assets/readme-pictures/error-page.webp)
 
+### Testing
+
++ I tested the page with DevTools in Chrome, Firefox and Edge and encountered no issues. <br>
++ The site is responsive and formats correctly until a width of 320px.<br>
++ The links work and open in new tabs and the forms meet the required standards. <br>
 
 ### Validator Testing
 
@@ -204,7 +209,9 @@ The page has an excellent score on desktop devices (tested with [PageSpeedInsigh
 
 Sometimes some of the animations do not work correctly when looking at them with the chrome DevTools. Outside of it there are no such issues.<br>
 Also the resizing of the pages when clicking on a new page while in 'responsive mode' behaves inconsistently at times.<br>
-I do not believe this is a problem with my website, primarily because the issues are not consistent and appear somewhat random. 
+I do not believe this is a problem with my website, primarily because the issues are not consistent and appear somewhat random. <br>
+
+I remodeled the page and moved the opening times to a seperate page, because the GitHubPages live site did not behave the same as the local version (8000 port). This issue would have needed JavaScript to be solved, if the layout would have stayed the same. 
 
 ## Technologies Used
 ### Main Languages Used
