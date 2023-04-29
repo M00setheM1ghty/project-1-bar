@@ -194,7 +194,11 @@ The page has an excellent score on desktop devices (tested with [PageSpeedInsigh
 
 ![PageSpeed](assets/readme-pictures/pagespeed-desktop.webp)
 
-### Unfixed Bugs
+### Bugs
+
+Sometimes some of the animations do not work correctly when looking at them with the chrome DevTools. Outside of it there are no such issues.<br>
+Also the resizing of the pages when clicking on a new page while in 'responsive mode' behaves inconsistently at times.<br>
+I do not believe this is a problem with my website, primarily because the issues are not consistent and appear somewhat random. 
 
 ## Technologies Used
 ### Main Languages Used
@@ -212,9 +216,9 @@ The page has an excellent score on desktop devices (tested with [PageSpeedInsigh
 ## Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-- The live link can be found [HERE][def]
+- In the left side menu under Code and Automation find Pages and click it. 
+- This opene GitHubPages. On the top you can find the link to the live page. The Visit Button brings you there automatically in a new tab. 
+- The live link can be found [HERE][def] as well.
 
 ## Credits
 The template for this readme and also the structure of the signup forms were taken(after asking) from my mentors project [LaLucha][def6].<br>
@@ -222,7 +226,7 @@ She also turned me onto using flexbox for styling the site. This site was used f
 
 Thank you Lauren!
 
-The following CSS to hide the scrollbar was taken from the web. Unfortunately I cannot find the page it was taken from anymore.  
+The following CSS to hide the scrollbar was taken from the web. Unfortunately I cannot find the forum it was taken from anymore.  
 ```
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
@@ -247,7 +251,7 @@ Since I had some knowledge from certifications I did outside of CodeInstitute I 
 
 The design and content of this page was inpired by [Dante NYC][danteNYC].
 
-I myself have worked almost 5 years in hospitality, so much of the content was created by me. 
+I myself have worked almost 5 years in hospitality, so most of the content was created by me. 
 
 ### Media
 
