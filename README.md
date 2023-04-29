@@ -135,7 +135,7 @@ Here the food and drinks menus can be found. The background picture suggests tha
 The top of the menu page also has an animation that switches between different background pictures. 
 
 ![Menu Page](assets/readme-pictures/menu-top.webp)
-![Menu Page 2](assets/readme-pictures/menu-bottom.webp)
+![Menu Page 2](assets/readme-pictures/bottom-part-menus-new.webp)
 
 #### Contact Page(=contact.html)
 
@@ -151,7 +151,7 @@ On the bottom part the Contact form as well as the signup for the newsletter can
 
 #### Form Dump(=form-destination.html)
 
-A form dump was created to indicate the contact and newsletter form has worked: 
+A form dump was created to indicate the contact and newsletter form have worked: 
 
 ![Form Dump](assets/readme-pictures/form-dump.webp)
 

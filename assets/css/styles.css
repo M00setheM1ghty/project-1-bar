@@ -396,6 +396,7 @@ footer {
     padding: 10px;
     align-items: center;
 }
+
 #menu-food h3,
 #menu-drinks h3 {
     font-family: var(--header);
@@ -424,6 +425,7 @@ hr {
 #menu-drinks h5 {
     text-decoration: underline;
 }
+
 #menus {
     display: flex;
     flex-direction: column;
@@ -438,14 +440,13 @@ hr {
     background: url(../images/contacts-background-new.webp);
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-size: cover;
-    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 #top-part-background h1 {
-    font-size: 100px;
+    font-size: 75px;
     font-family: var(--header);
     color: var(--menu-color);
 }
@@ -453,7 +454,7 @@ hr {
 #top-part-background h2 {
     font-family: var(--subheader);
     color: var(--menu-color);
-    font-size: 4rem;
+    font-size: 40px;
 }
 
 #top-part-background a {
@@ -578,9 +579,9 @@ hr {
 }
 
 audio {
-    width: 200px;
+    width: 250px;
     height: 25px;
-    padding-top: 30px;
+    padding: 50px;
 }
 
 /*form-destination styling starts here*/
@@ -668,13 +669,6 @@ audio {
     audio {
         width: 100px;
         padding-top: 20px;
-    }
-
-    #quote-div h2 {
-    }
-
-    #quote-div h2 {
-        
     }
 }
 
