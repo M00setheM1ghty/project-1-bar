@@ -51,7 +51,7 @@ Cocktail enthusiasts and those who want to become one. Our target group are all 
 
 ### Communication:
 
-With a minimalistic design,  information is easy to find by all who visit the site. With this approach we avoid an overload of information and ensure that the most important parts are conveyes to the customers. Also the operating hours and location are available throughout all the pages, to remind our audience immediately of when we are open and where to find us.
+With a minimalistic design,  information is easy to find by all who visit the site. With this approach we avoid an overload of information and ensure that the most important parts are conveyed to the customers. The operating hours and location are available throughout all the pages, to remind our audience immediately of when we are open and where to find us.
 
 ### Current User Goals:
 
@@ -61,8 +61,8 @@ With a minimalistic design,  information is easy to find by all who visit the si
 
 - to navigate the site with ease & clearly understand the information that is being provided.
 - for the information to be relevant & up-to-date.
-- to be inspired by a striking design that captures my immediate interest,
-and keeps my focus on the site.
+- to be inspired by a striking design that captures the potential customers immediate interest,
+and keeps the focus on the site.
 
 ## Design
 
@@ -101,31 +101,35 @@ The images were all used as backgrounds to highlight the fact this is a bar-envi
 ### Existing Features
 #### Navigation bar:
 
-This navigation bar is included over all 4 pages (Hours/Location is only a local link to the opening times) and also the form-dump page. It ensures visitors can navigate seamlessly between the pages.
+This navigation bar is included over all 5 pages and also the form-dump page. It ensures visitors can navigate seamlessly between the pages.
 
 ![Navigation bar](assets/readme-pictures/nav-bar.webp)
 
 #### Footer
-The footer includes the social media links and can be found on all pages to round off them off.
+The footer includes the social media links and can be found on all pages to round them off.
 
-#### Landing/Welcome Page
+#### Landing/Welcome Page(=index.html)
 
 The top-part of the welcome page shows a picture of a cocktail to alert the user to what kind of website they are on.<br>
-The arrow indicates where to go to see the content intended to be viewed next. There is an animation which changes between 3 different pictures. 
+The arrow indicates where to go to see the content intended to be viewed next.There is an animation which changes between 3 different pictures. 
 
 ![Welcome Page](assets/readme-pictures/welcome-top-part.webp)
 
-The bottom part is right below and shows the opening times and where the bar can be found, which is often essential information customers look for. 
+The bottom part shows a quote and describes the company philosophy. 
 
 ![Welcome Page 2](assets/readme-pictures/welcome-bottom-part.webp)
 
-#### Hours/Location Page
+#### Hours/Location Page(=opening.html)
 
-This is the bottom part of the welcome page. I figured that an opening-hours/location link should be included in the navbar since it is vital information and often looked for. 
+The top part is almost the same as the welcome page. The bottom part has the opening hours and location. 
+
+The hours/location page informs the customer when the bar is open and where to find it. For easy access the address links to google maps when clicked on.<br>
+I figured that an opening-hours/location element should be included in the navbar since it is vital information and often looked for. 
  
- ![Welcome Page 2](assets/readme-pictures/welcome-bottom-part.webp)
+ ![Opening Page 1](assets/readme-pictures/opening-top-part.webp)
+![Opening Page 2](assets/readme-pictures/opening-bottom-part.webp)
 
-#### Menus Page
+#### Menus Page(=menus.html)
 
 Here the food and drinks menus can be found. The background picture suggests that drinks as well as food is available and part of the menu is already visible for easy access.
 The top of the menu page also has an animation that switches between different background pictures. 
@@ -133,7 +137,7 @@ The top of the menu page also has an animation that switches between different b
 ![Menu Page](assets/readme-pictures/menu-top.webp)
 ![Menu Page 2](assets/readme-pictures/menu-bottom.webp)
 
-#### Contact Page
+#### Contact Page(=contact.html)
 
 The top part of the contacts page mimicks the style of the landing page.<br>
 The arrows clearly indicate where to find the contact forms.
@@ -145,18 +149,24 @@ On the bottom part the Contact form as well as the signup for the newsletter can
 ![Contact Page](assets/readme-pictures/contact-bottom1.webp)
 ![Contact Page](assets/readme-pictures/contact-bottom2.webp)
 
-#### Form Dump
+#### Form Dump(=form-destination.html)
 
 A form dump was created to indicate the contact and newsletter form has worked: 
 
 ![Form Dump](assets/readme-pictures/form-dump.webp)
 
-#### Events Page
+#### Events Page(=events.html)
 
 This page shows off special and ongoing events. It clearly states when and where they are happening and gives an easy view of all the information.
 The background image gives the feeling of night life and party. Also there is an audio file which plays the bars "song of the week".
 
 ![Events Page](assets/readme-pictures/events-page.webp)
+
+#### TOP Button
+
+The TOP button exists on pages where the nav bar gets out of sight while scrolling. When the user reaches the bottom of the page the top button takes him back to the top. This makes navigation easier and avoids having to scroll upwards again and confusion where to get to the next content. 
+
+![TOP button](assets/readme-pictures/top-button.webp)
 
 
 ### Validator Testing
@@ -252,6 +262,7 @@ https://pixabay.com/photos/hand-turntable-dj-neon-lights-1850120/<br>
 https://pixabay.com/photos/dj-songs-music-disco-equipment-2581269/<br>
 https://pixabay.com/photos/spaghetti-tomatoes-basil-1932466/<br>
 https://pixabay.com/photos/bread-sandwich-food-plate-toast-1867208/<br>
+https://pixabay.com/photos/bartender-mixologist-bar-cocktail-5130099/
 
 Here is the audio from pixabay:<br>
 [Lofi Study Beat][study beat]
