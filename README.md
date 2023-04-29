@@ -168,6 +168,12 @@ The TOP button exists on pages where the nav bar gets out of sight while scrolli
 
 ![TOP button](assets/readme-pictures/top-button.webp)
 
+#### Error Page
+
+When a 404 error is thrown the customer sees a custom error message with a button that returns the homepage. 
+
+![Error Page](assets/readme-pictures/error-page.webp)
+
 
 ### Validator Testing
 
