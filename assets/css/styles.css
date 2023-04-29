@@ -49,6 +49,17 @@ header,
 footer {
     background: blanchedalmond;
 }
+/* error page styling */
+.back-to-homepage {
+    font-size: 30px;
+    padding: 10px;
+    margin: 30px;
+    background-color: black;
+    font-family: var(--subheader);
+    border: 2px solid var(--menu-color);
+    text-align: center;
+    border-radius: 5%;
+}
 
 /* back to top button styling */
 
