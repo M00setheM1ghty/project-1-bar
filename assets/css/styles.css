@@ -61,17 +61,21 @@ footer {
     border: 2px solid var(--menu-color);
     text-align: center;
 }
+
 .to-top-button a:hover {
     color: chocolate;
 }
+
 .to-top-button a {
     text-decoration: none;
     color: var(--menu-color);
 }
+
 #to-top-arrow {
     color: var(--menu-color);
     padding-right: 5px;
 }
+
 #to-top-arrow.hover {
     color: chocolate;
 }
@@ -85,32 +89,27 @@ footer {
     align-items: center;
     padding: 100px;
 }
+
 #quote {
     color: var(--menu-color);
     font-family: var(--header);
     font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 30px;
     background-color: black;
 }
+
 #quote-div {
     color: var(--menu-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 20px;
     border: 2px solid var(--menu-color);
     background-color: black;
 }
+
 #quote-div p {
     font-size: 30px;
     font-family: var(--text);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
+
 #quote-div h2 {
     padding: 5px;
     font-family: var(--subheader);
@@ -662,6 +661,13 @@ audio {
         width: 100px;
         padding-top: 20px;
     }
+
+    #quote-div h2 {
+    }
+
+    #quote-div h2 {
+        
+    }
 }
 
 /* for 1024px and lower */
@@ -682,13 +688,16 @@ audio {
     audio {
         display: none;
     }
+
     #song-week {
         display: none;
     }
+
     /* events page */
     #background-img-events {
         padding: 0;
     }
+
     /* formdump style */
     #formdump-page {
         padding: 100px;
@@ -799,15 +808,18 @@ audio {
     #background-img-events {
         padding: 25px 0px;
     }
+
     /* formdump style */
     #formdump-page {
         padding: 30px;
         height: 500px;
     }
+
     #formdump-message h2 {
         font-size: 4rem;
     }
+
     #formdump-message p {
         font-size: 2rem;
     }
-} 
+}
