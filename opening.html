@@ -38,74 +38,47 @@
       </ul>
     </nav>
   </header>
-  <main>
 
-    <!-- call to look at food/drinks menus -->
-    <section id="top-part">
-      <div id="background-img-menus">
-        <h1>Menus</h1>
-        <h1>Drinks</h1>
-        <h1>+</h1>
-        <h1>Food</h1>
-        <h2><a href="#menus" aria-label="brings you to the next section on the page"><i
-              class="fa-solid fa-arrows-down-to-line"></i></a></h2>
+  <main>
+    <!-- welcome page big logo -->
+    <section id="landing-page">
+      <div id="background-img">
+        <div id="landing-page-logo">
+          <h1>Opening Hours</h1>
+          <h1 style="font-family: Merriweather Sans, sans-serif; font-size: 40px;">& Location</h1>
+          <!-- arrow pointing downwards to indicate next section -->
+          <h2><a href="#background-img-2" aria-label="brings you to the next section on the page"><i
+                class="fa-solid fa-arrows-down-to-line"></i></a></h2>
+        </div>
       </div>
     </section>
-    <!-- drinks/food menus-->
-    <section id="menus">
-      <div id="menu-items">
-        <div id="menu-food">
-          <h3 id="food-header">Food</h3>
-          <hr>
-          <br>
-          <h4>Snacks</h4>
-          <p>Veggie Sticks with Hummus 9$</p>
-          <p>Mozarella Sandwich 11$</p>
-          <p>Soup of the Day 7$</p>
-          <br>
-          <h4>Mains</h4>
-          <p>BLT Sandwich 15$</p>
-          <p>Fish and Chips 17$</p>
-          <p>Chicken Fajitas 13$</p>
-          <p>Nachos with homemade Guacamole 11$</p>
-          <br>
-          <h4>Sides</h4>
-          <p>Triple Cooked Fries 5$</p>
-          <p>Grilled Vegetables 5$</p>
-          <p>Coleslaw 4$</p>
-          <br>
-
-        </div>
-        <div id="menu-drinks">
-          <h3>Drinks</h3>
-          <hr>
-          <br>
-          <h4>Signature Cocktails</h4>
-          <p>Dancing Martini 13$</p>
-          <p>Shakey Shakey Margarita 13$</p>
-          <p>Highball of the day 12$</p>
-          <br>
-          <h4>Beer</h4>
-          <p>Lager 7$</p>
-          <p>IPA 8$</p>
-          <p>Stout 8$</p>
-          <br>
-          <h4>Wine</h4>
-          <h5>by the glass</h5>
-          <p>Puget Sound Sauvignon Blanc, Napa Valley, 2022, 9$</p>
-          <p>Leona Valley Cüvee, 2020, 11$</p>
-          <p>Ancient Lakes Rose, 2023, 8$</p>
-          <h5>by the bottle</h5>
-          <p>Ask your waiter for a full menu!</p>
-          <br>
-          <h4>Non Alcoholic</h4>
-          <p>Fresh Fruit Juices 5$</p>
-          <p>Coke, Fanta, Sprite 3$</p>
-          <p>Water(still/sparkling) 4$</p>
+    <!-- opening hours and location -->
+    <section>
+      <div id="background-img-2">
+        <div id="opening-hours-location">
+          <h1 id="opening-hours">Opening Hours</h1>
+          <ul id="opening-times">
+            <li>Monday & Tuesday: Closed</li>
+            <li>Wednesday: 5pm-1am</li>
+            <li>Thursday: 5pm-1am</li>
+            <li>Friday: 5pm-2am</li>
+            <li>Saturday: 5pm-2am</li>
+            <li>Sunday: 5pm-11pm</li>
+          </ul>
+          <h2 id="bar-adress">You can find us here:</h2>
+          <div id="address">
+            <a id="address-anchor"
+              href="https://www.google.com/maps/place/W+57th+St,+New+York,+NY+10019,+USA/@40.7668337,-73.9856684,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25858641e5daf:0x45db7fb96ae7891c!8m2!3d40.7668297!4d-73.9830935!16s%2Fm%2F0262645"
+              target="_blank" rel="noopener" aria-label="opens google maps with the bar adress in a new tab">
+              W 57th St,
+              New York, NY 10019,
+              USA
+            </a>
+            <button class="to-top-button grow" type="text"><a href="#small-logo"
+                aria-label="brings you back to top of the page"><i class="fa-solid fa-arrow-up" id="to-top-arrow"></i>TOP</a></button>
+          </div>
         </div>
       </div>
-      <button class="to-top-button grow" type="text"><a href="#small-logo"
-        aria-label="brings you back to top of the page"><i class="fa-solid fa-arrow-up" id="to-top-arrow"></i>TOP</a></button>
     </section>
   </main>
   <footer>
@@ -119,8 +92,8 @@
           rel="noopener" aria-label="Visit our Spotify page">Spotify <i class="fa-brands fa-spotify"></i></a></li>
     </ul>
   </footer>
+  <!-- font awesome icons-->
+  <script src="https://kit.fontawesome.com/83c8870d31.js" crossorigin="anonymous"></script>
 </body>
-<!-- font awesome icons-->
-<script src="https://kit.fontawesome.com/83c8870d31.js" crossorigin="anonymous"></script>
 
 </html>
