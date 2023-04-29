@@ -60,6 +60,7 @@ footer {
     font-family: var(--subheader);
     border: 2px solid var(--menu-color);
     text-align: center;
+    border-radius: 5%;
 }
 
 .to-top-button a:hover {
@@ -103,6 +104,7 @@ footer {
     padding: 20px;
     border: 2px solid var(--menu-color);
     background-color: black;
+    border-radius: 5%;
 }
 
 #quote-div p {
@@ -240,7 +242,8 @@ header {
     align-items: center;
     background-color: black;
     border: 2px solid var(--menu-color);
-    padding: 20px 20px;
+    padding: 20px;
+    border-radius: 5%;
 }
 
 /* styling of subheaders and text*/
@@ -374,12 +377,10 @@ footer {
 /* menu part */
 #menu-food {
     padding: 20px 5px;
-    border: 2px solid var(--menu-color);
     line-height: 1.5em;
 }
 
 #menu-drinks {
-    border: 2px solid var(--menu-color);
     padding: 20px 5px;
     line-height: 1.5em;
 }
@@ -390,11 +391,11 @@ footer {
     text-align: center;
     font-size: 1.5rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     padding: 10px;
+    align-items: center;
 }
-
 #menu-food h3,
 #menu-drinks h3 {
     font-family: var(--header);
@@ -422,6 +423,11 @@ hr {
 
 #menu-drinks h5 {
     text-decoration: underline;
+}
+#menus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* CONTACT.HTML STYLING STARTS HERE */
@@ -462,7 +468,6 @@ hr {
 /* contact and newsletter forms */
 #contact-form-div,
 #newsletter-form-div {
-    background-color: black;
     width: 50%;
 }
 
@@ -476,6 +481,9 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
+    border-radius: 5%;
+    margin-top: 20px;
 }
 
 .contact-f>h2 {
